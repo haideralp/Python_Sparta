@@ -39,7 +39,7 @@ a = 2
 b = 4
 print("The sum is,add_num(a+b)")
 """
-
+"""""
 def add_num(a , b):  #function for addition
     sum=a+b
     return sum #return value
@@ -49,8 +49,35 @@ a=25  #variable declaration
 b=55
 print("The sum is", add_num(a, b)) # calling for function to print the sum value
 
-
+SRK example
 def add(num1, num2):
     #print(num1,num2)
     return (num1 + num2)
 print(add(4,2))
+"""
+# Create basic calculator with 4 functions
+# sub - multiple - divide -%
+# display a message with desired outcome using return statement or print ()
+# follow best practices of naming convention - sudo coding - commenting.
+
+# Simple basic calculator
+
+# This function subtracts two numbers
+def subtract(a, b):
+    return a - b
+
+# This function multiplies two numbers
+def multiply(a, b):
+    return a * b
+
+# This function divides two numbers
+def divide(a, b):
+    return a / b
+This function expresses percentage
+def percentage(a, b):
+    return a % b
+
+print("Select operation.")
+print("1.Subtract")
+print("3.Multiply")
+print("4."%") 
